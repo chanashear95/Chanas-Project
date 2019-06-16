@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(252,240,208);
+}
+
+/* Game Instruction Page */
+
+#instructions {
+    text-align: center;
+    width: 400px;
+    margin: 0px auto;
+    font-size: 1.5em;
+    padding: 30px;
+    border-radius: 30%;
+    font-family: "comic sans Ms", sans-serif;
+    color: rgb(72,21,66);
+}
+
+.game-title {
+    color: rgb(72,21,66);
+    font-size: 3em;
+    font-family: "comic sans Ms", sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(69,59,68);
+}
+
+.game-board-choice {
+    display: inline;
+    margin-right: 80px;
+    color: rgb(74, 16, 99);
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#board-btn-container button{
+    font-size: 1.5em;
+    color: rgb(244,228,143);
+    font-family: sans-serif;
+    background-color: rgb(204,75,67);
+    padding: 20px;
+    margin: 0 10px;
+    padding: 10px 25px;
+    border-radius: 10%;
+
+
+
+
+}
+
+
+#game-difficulty{
+margin-bottom: 50px;
+font-size: 2em;
+color: rgb(72,21,66);
+font-family: "comic sans Ms", sans-serif;
+font-weight: bolder;
+
+}
+
+
+/* Game Board */
+td {
+    width :80px;
+    height: 100px;
+    background-color:rgb(252,240,208);
+    border: 5px solid rgb(252,240,208);
+}
+
+td img {
+    width :80px;
+    height: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+
+
+#game-score {
+    display: none;
+    position: fixed;
+    float: left;
+    margin-left: -715px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(72,21,66);
+    border: 5px solid rgb(72,21,66);
+    padding:10px;
+    background-color: rgb(237, 205, 192,.5);
+    font-family: "comic sans Ms", sans-serif;
+
+
+}
+
+
+#buzzer {
+    display: none;
+    position: fixed;
+    margin-left: -680px;
+    margin-top: 200px;
+    font-size: 1.4em;
+    color:rgb(72,21,66);
+    font-family: "comic sans Ms", sans-serif;
+
+    
+   
+}
+ 
+#countdown {
+    margin-top: -62px;
+    margin-left: 100px;
+    font-weight: bold;
+    position: fixed;
+    font-size: 1.4em;
+    color:rgb(72,21,66);
+}
+
+
+#start-new-btn {
+    display:none;
+    padding: 10px 20px;
+    border-radius: 10%;
+    font-size: 1.2em;
+    color: rgb(244,228,143);
+    font-family: sans-serif;
+    background-color: rgb(204,75,67);
+}
+
+button:hover {
+box-shadow: 4px 4px rgb(69,59,68);
+}
+

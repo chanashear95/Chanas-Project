@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Game</title>
+</head>
+<body>
+    <h1 class="game-title">Card Matching Memory Game</h1>
+    <div id="first-page">
+
+    <div id = "instructions">
+        To start the game you must click on two cards to flip them over.
+        If the cards are a macth they will disappear.  If they are not a match they will
+        flip over after one second.  You must try to remember where each card is in order to find
+        matches.  If you find all the matches by the end of the buzzer, you win!
+        Choosing a game difficulty starts the buzzer.
+    </div>
+
+    <h2 id="game-difficulty">Choose Game Difficulty</h2>
+
+    <div id="board-btn-container">
+
+    <button class="game-board-choice" id="4X4-game-btn">Easy 4x4 <br> 2 Minutes</button>
+    <button class="game-board-choice" id="6X6-game-btn">Medium 6x6 <br> 5 Minutes</button>
+    <button class="game-board-choice" id="8X8-game-btn">Hard 8x8 <br>8 Minutes</button>
+    <button class="game-board-choice" id ="10X10-game-btn">Expert 10x10 <br>10 Minutes</button>
+    </div>
+    </div>
+    <div id="game-score">
+        <h3>Total Matches Found</h3>
+        <div id="number-of-matches"></div>
+    </div>
+
+    <div id="buzzer">
+        <h3>Time:</h3>
+        <div id="countdown"></div>
+    </div>
+                <div id="game-board">
+        
+        
+                    </div>
+                    <button id="start-new-btn">Start New Game</button>
+
+                    <script src="main.js">
+        
+                        </script>
+    
+</body>
+</html>
